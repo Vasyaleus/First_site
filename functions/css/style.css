@@ -1,0 +1,18 @@
+.img {
+    background-image: url(/images/Reyna.jpg);
+    width: auto;
+    height: 100vh;
+    font-size: 240%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.img:hover {
+    transition: ease-out;
+    transition-duration: 1s;
+    background-position-x: -40px;
+    background-image: url(/images/Reyna_hover.jpg);
+}
+.img:not(:hover) {
+    transition: ease-out;
+    transition-duration: 1.5s;
+    background-position-x: 0px;
+}
